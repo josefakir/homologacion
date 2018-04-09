@@ -12,6 +12,10 @@ class ComposerStaticInite3bdc8a062b8abba0e6b710eeeb854b4
             'Psr\\SimpleCache\\' => 16,
             'PhpOffice\\PhpSpreadsheet\\' => 25,
         ),
+        'O' => 
+        array (
+            'OntraportAPI\\' => 13,
+        ),
     );
 
     public static $prefixDirsPsr4 = array (
@@ -22,6 +26,10 @@ class ComposerStaticInite3bdc8a062b8abba0e6b710eeeb854b4
         'PhpOffice\\PhpSpreadsheet\\' => 
         array (
             0 => __DIR__ . '/..' . '/phpoffice/phpspreadsheet/src/PhpSpreadsheet',
+        ),
+        'OntraportAPI\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/ontraport/sdk-php/src',
         ),
     );
 
